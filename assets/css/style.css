@@ -7,6 +7,12 @@ body {
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+margin-top: auto;
 }
 .home-header {
   background-color: rgba(42, 83, 145, 0.75);
@@ -15,6 +21,9 @@ body {
   margin: 20px;
   max-height: 95%;
   min-height: 95%;
+}
+  .home-white-text {
+  color: white;
 }
 .header-banner {
   background-color: #2a5391;
@@ -37,13 +46,25 @@ h1 {
   line-height: 100%;
   margin-bottom: 30px;
 }
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
 h3 {
   font-family: 'Playfair Display', serif;
-  color: white;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
-
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-top:10px;
+}
+.bold {
+  font-weight: 700;
+}
 #personal-logo {
   height: 75px;
   margin: 20px auto;
@@ -108,6 +129,37 @@ h3 {
   text-shadow: 2px 2px 8px #333333;
 }
 
+/* about me page content */
+
+#bio-picture {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  object-position: 90% 5%;
+ box-shadow: 0 10px 0 20px #DB507A;
+}
+.about-me-copy {
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#resume {
+  background-color: #DB507A;
+  padding: 10px 20px;
+  max-width: 325px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  border-radius:300px;
+  text-align: center;
+  align-self: center;
+   -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#resume:hover {
+  background-color: #2a5391
+
+}
+
 @media (max-width: 767px) {
   .hamburger {
     display: block;
@@ -150,13 +202,15 @@ h3 {
   body {
     background-color: #2a5391;
   }
-
   .home-header {
     margin: 5%;
     background-color: rgba(42, 83, 145, 0);
     max-height: none;
     min-height: none;
   }
+  .brightness {
+  filter: brightness(0);
+}
   a {
     color: black;
     font-size: 25px;
@@ -201,6 +255,9 @@ h3 {
     margin-top: 75px;
     margin-bottom: 30px;
   }
+    .home-white-text {
+  color: black;
+}
   h3 {
     color: black;
     font-size: 45px;
