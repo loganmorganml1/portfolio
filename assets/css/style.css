@@ -376,6 +376,11 @@ h2 {
     min-height: 900px;
   }
 
+  .nav-menu {
+  gap: 70px;
+  padding: 3%;
+}
+
   /* about me page content */
   .all-about-me-content {
     display: grid;
@@ -384,10 +389,11 @@ h2 {
     margin: 0 2% 2% 2%;
     padding-top: 2%;
     padding-bottom: 4.5%;
+    column-gap: 60px;
   }
 
 #bio-picture {
-  width: 85%;
+  width: 90%;
   max-height: 600px;
   object-fit: cover;
  box-shadow: -20px -20px 0 #DB507A;
