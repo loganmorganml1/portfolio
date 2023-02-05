@@ -37,16 +37,45 @@
     </header>
     <div class="all-about-me-content">
         <div class="about-me-copy">
-            <h2>About Me</h2>
-            <h3 class="bold">Problem solver and avid learner</h3>
-            <p> Hello and welcome to my site! When I put my mind to something I dedicate myself to making the best possible product it can be. Whether it be a comic, print, or website (like this one!) I will do everything in my power to learn, create, and adapt until happy with the results.</p>
-            <p>I love to learn new things and look at a variety of mediums to help drive my creativity. When I'm not working on design you can find me working on my comic, walking my dog, or unwinding with a good book!</p>
+            <h2>Contact</h2>
+            <h3 class="bold">Like what you saw? Reach out!</h3>
+        </div>
+        <div class="contact-form">
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <h2>Get in Touch!</h2>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <input type="text" id="subject" placeholder="Reason for reaching out" required>
+                <textarea id="message" rows="4" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
         </div>
         <div class="link-section">
-            <a href="#" id="resume">You can check out my resume here</a>
+            <a href="index.html"><img src="./assets/img/social-media-icons/icons8-linkedin.svg" alt="LinkedIn logo" class="social-media-icon"></a>
+            <a href="index.html"><img src="./assets/img/social-media-icons/icons8-instagram.svg" alt="LinkedIn logo" class="social-media-icon"></a>
         </div>
     </div>
 </body>
 <script src="./assets/js/index.js">
+</script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    function sendEmail() {
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "morganlogan7e@gmail.com",
+            Password: "7CD7652EACA848ACD7D52DE91783CFE37AB6",
+            To: 'morganlogan7e@gmail.com',
+            From: 'morganlogan7e@gmail.com',
+            ReplyTo: document.getElementById("email").value,
+            Subject: document.getElementById("subject").value,
+            Body: "Name: " + document.getElementById("name").value +
+                "<br> Email: " + document.getElementById("email").value +
+                "<br> Message: " + document.getElementById("message").value
+        }).then(
+            message => alert("Thank you for you submission!")
+        );
+    }
 </script>
 </html>
