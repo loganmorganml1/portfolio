@@ -17,7 +17,7 @@ document.querySelectorAll('.nav-link').forEach((n) =>
 //slideshow content
 var i = 0 //start point
 var images = []
-var time = 3000
+var time = 2700
 
 //image list
 images[0] = './assets/img/image1.jpeg'
