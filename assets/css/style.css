@@ -189,7 +189,7 @@ p {
     flex-direction: column;
   }
 
-  .contact-copy {
+  .copy-section {
   padding: 30px;
   margin-top: 10px;
 }
@@ -289,12 +289,19 @@ form button:hover {
 }
 
 .blue-background {
-  background-color: #2a5391;;
+  background-color: #2a5391;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.project-title {
+  padding-top: 50px;
 }
 
 .white-text {
 color:white;
 }
+
+/*end of portfolio content*/
 
 
 
@@ -448,7 +455,7 @@ color:white;
    margin: 0 5% 5% 5%;
   }
 
-  .contact-copy {
+  .copy-section {
   padding: 0 6%;
   margin-bottom: 20px;
 }
@@ -482,6 +489,23 @@ form input, form textarea {
 }
 /* end of contact page content */
 }
+
+/* portfolio page content */
+
+
+.picture-shadow {
+  box-shadow: 0px 0px 5px #4F4F4F;
+}
+
+.blue-background {
+  background-color: #123870;
+}
+
+.white-text {
+color:white;
+}
+
+/*end of portfolio content*/
 
 @media (min-width: 997px) {
 
@@ -611,7 +635,7 @@ h2 {
     column-gap: 0;
   }
 
-  .contact-copy {
+  .copy-section {
   display: flex;
   flex-direction: column;
   padding: 0;
