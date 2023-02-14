@@ -71,6 +71,19 @@ p {
   margin-top:10px;
   line-height: 150%;
 }
+.copy-link {
+  font-family:'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #db507a;
+  padding-top: 20px;
+}
+
+.copy-link:hover {
+  color:#2a5391;
+  transition: 1s;
+}
+
 .bold {
   font-weight: 700;
 }
@@ -548,6 +561,10 @@ h2 {
     background-color: transparent;
     text-shadow: none;
   }
+  .copy-link {
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+}
   .slideshow-background {
     width: 30%;
     height: 96%;
@@ -577,7 +594,7 @@ h2 {
     grid-template-rows: 4fr 1fr;
     margin: 0 2% 2% 2%;
     padding-top: 2%;
-    padding-bottom: 4.5%;
+    padding-bottom: 3%;
     min-height: 76%;
     column-gap: 60px;
   }
@@ -630,7 +647,7 @@ h2 {
     grid-template-rows: 4fr 1fr;
     margin: 0 2% 0 2%;
     padding-top: 2%;
-    padding-bottom: 0%;
+    Padding-bottom: 4.5%;
     min-height: 78%;
     column-gap: 0;
   }
@@ -728,6 +745,7 @@ margin: 30px auto 0 auto;
 .project-title {
   padding-top: 50px;
 }
+
 /*end of portfolio content*/
 }
 
