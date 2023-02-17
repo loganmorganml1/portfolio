@@ -20,9 +20,9 @@ var images = []
 var time = 2700
 
 //image list
-images[0] = './assets/img/image1.jpeg'
-images[1] = './assets/img/image2.jpeg'
-images[2] = './assets/img/image3.jpeg'
+images[0] = './assets/img/who-travels-phone-design.jpeg'
+images[1] = './assets/img/colorful_astronaut.png'
+images[2] = './assets/img/flyers.png'
 
 //change image
 function changeImg() {
