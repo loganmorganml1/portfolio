@@ -489,6 +489,10 @@ form input, form textarea {
   align-self: center;
   width: 600px;
 }
+
+form textarea {
+  height: 250px;
+}
 /* end of contact page content */
 
 /* portfolio page content */
