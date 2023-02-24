@@ -418,12 +418,11 @@ color:white;
  .all-page-content {
    background-color: white;
    margin: 0 5% 5% 5%;
-   height: 82%;
   }
 
 #bio-picture {
   width: 100%;
-  height: 60%;
+  height: 650px;
   align-self: center;
   object-position: 90% 11%;
  box-shadow: 0 -15px 0 0px #DB507A;
@@ -467,6 +466,7 @@ color:white;
   flex-direction: row;
   align-self: flex-end;
   margin-right: 1%;
+  padding: 2% 0;
 }
 
   .social-media-icon {
