@@ -167,10 +167,7 @@ p {
   }
 #bio-picture {
   width: 100%;
-  min-height: 350px;
-  max-height: 200px;
   object-fit: cover;
-  object-position: 90% 5%;
  box-shadow: 0 -10px 0 10px #DB507A;
 }
 .about-me-copy {
@@ -421,14 +418,14 @@ color:white;
  .all-page-content {
    background-color: white;
    margin: 0 5% 5% 5%;
-   height: 79%;
+   height: 82%;
   }
 
 #bio-picture {
   width: 100%;
-  margin-top: 50px;
+  height: 60%;
   align-self: center;
-  object-position: 90% 8%;
+  object-position: 90% 11%;
  box-shadow: 0 -15px 0 0px #DB507A;
 }
 
@@ -436,22 +433,15 @@ color:white;
   padding: 0 6%;
 }
  .link-section {
-    align-self: center;
-    z-index: 1;
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 25%;
-    margin-left: 55%;
+    width: 75%;
+    justify-content: center;
+    margin: 2% 0 0 0;
   }
 
 #resume {
   background-color: #DB507A;
   font-size: 20px;
   width: 75%;
-}
-
-#resume:hover {
-  background-color: #2a5391
 }
 
 .header-banner {
@@ -626,13 +616,8 @@ h2 {
     width: 50%;
 }
 #resume {
-  background-color: #DB507A;
-  font-size: 20px;
   color: white;
   width: 100%;
-}
-#resume:hover {
-  background-color: #2a5391
 }
 .header-banner {
   margin: 2% 2% 0 2%;
