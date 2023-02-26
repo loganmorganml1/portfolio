@@ -777,6 +777,10 @@ form input, form textarea {
 form textarea {
   height: 300px;
 }
+
+ p {
+  font-size: 22px;
+}
 }
 
 @media (min-width: 2100px) {
