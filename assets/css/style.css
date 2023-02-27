@@ -29,6 +29,7 @@ body {
   margin: 20px;
   max-height: 95%;
   min-height: 95%;
+  max-width: 100%;
 }
   .home-white-text {
   color: white;
@@ -544,17 +545,12 @@ h2 {
     width: 100%;
   }
 
-  .nav-item {
-    width: 200px;
-  }
-
   #personal-logo {
     margin: 30%;
     height: 100px;
   }
   .front-page-copy {
-    margin-top: 7%;
-    margin-bottom: 18%;
+    margin-top: 10%;
     background-color: transparent;
     text-shadow: none;
   }
@@ -572,7 +568,9 @@ h2 {
     margin-bottom: 3%;
     margin-right: 3%;
     background-color: white;
-    min-height: 900px;
+    height: auto;
+    width: 64%;
+    min-height: 90%;
   }
 
   .nav-menu {
@@ -679,6 +677,11 @@ margin: 30px auto 0 auto;
 
 
 @media (min-width: 1395px) {
+
+  .nav-item {
+    width: 200px;
+  }
+
 /* portfolio page content */
 
 .portfolio-pictures {
@@ -776,6 +779,17 @@ form input, form textarea {
 
 form textarea {
   height: 300px;
+}
+
+h1 {
+  font-size: 125px;
+}
+
+h3 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 85px;
 }
 
  p {
