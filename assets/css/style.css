@@ -344,6 +344,7 @@ color:white;
   .nav-item {
   margin: 0;
   border-style: solid none;
+  border-width: 1px;
   border-color: white;
   width: 100%;
   padding: 25px 0;
