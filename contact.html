@@ -43,11 +43,11 @@
         </div>
         <div class="contact-form">
             <form onsubmit="sendEmail(); reset(); return false;">
-                <input type="text" id="name" placeholder="Your Name" required>
-                <input type="email" id="email" placeholder="Email Address" required>
+                <input type="text" id="full-name" placeholder="Your Name" required>
+                <input type="email" id="email-id" placeholder="Email Address" required>
                 <input type="text" id="subject" placeholder="Reason for reaching out" required>
                 <textarea id="message" rows="4" placeholder="Message"></textarea>
-                <button type="submit">Send</button>
+                <button onclick="SendMail()">Send</button>
             </form>
         </div>
         <div class="social-media">
@@ -58,24 +58,11 @@
 </body>
 <script src="./assets/js/index.js">
 </script>
-<script src="https://smtpjs.com/v3/smtp.js">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
-<script>
-    function sendEmail() {
-        Email.send({
-            Host: "smtp.elasticemail.com",
-            Username: "morganlogan7e@gmail.com",
-            Password: "7CD7652EACA848ACD7D52DE91783CFE37AB6",
-            To: 'morganlogan7e@gmail.com',
-            From: 'morganlogan7e@gmail.com',
-            ReplyTo: document.getElementById("email").value,
-            Subject: document.getElementById("subject").value,
-            Body: "Name: " + document.getElementById("name").value +
-                "<br> Email: " + document.getElementById("email").value +
-                "<br> Message: " + document.getElementById("message").value
-        }).then(
-            message => alert("Thank you for your submission!")
-        );
-    }
+<script type="text/javascript">
+    (function () {
+        emailjs.init("ry4zPBA6-F92ID2Mh");
+    })();
 </script>
 </html>

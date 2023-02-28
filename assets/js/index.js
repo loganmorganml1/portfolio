@@ -37,3 +37,14 @@ function changeImg() {
 
 window.onload = changeImg
 
+//email form content
+function SendMail() {
+  var params = {
+    from_name : document.getElementById("full-name").value,
+    email_id : document.getElementById("email-id").value,
+    message : document.getElementById("message").value
+  }
+  emailjs.send('service_rg9bggb', 'template_3jj7rbh', params).then(function (res){
+    alert("Thank you for your submission!" + res.status);
+  })
+}
