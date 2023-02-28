@@ -39,6 +39,10 @@ window.onload = changeImg
 
 //email form content
 function SendMail() {
+
+  const form =
+  document.getElementById('my-form');
+  form.addEventListener('submit', SendMail)
   var params = {
     from_name : document.getElementById("full-name").value,
     email_id : document.getElementById("email-id").value,

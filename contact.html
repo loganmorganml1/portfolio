@@ -42,12 +42,12 @@
             <p>Check out my LinkedIn below for more information on my career. To get to know me more as a person, feel free to check out my Instagram where I post about my latest travels, artwork, and my lovely Golden Luna. </p>
         </div>
         <div class="contact-form">
-            <form onsubmit="sendEmail(); reset(); return false;">
+            <form onsubmit="reset(); return false;" id="my-form">
                 <input type="text" id="full-name" placeholder="Your Name" required>
                 <input type="email" id="email-id" placeholder="Email Address" required>
                 <input type="text" id="subject" placeholder="Reason for reaching out" required>
                 <textarea id="message" rows="4" placeholder="Message"></textarea>
-                <button onclick="SendMail()">Send</button>
+                <button onclick="SendMail()" type="submit">Send</button>
             </form>
         </div>
         <div class="social-media">
