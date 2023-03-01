@@ -370,6 +370,8 @@ color:white;
 }
   a {
     color: black;
+  }
+  .nav-link {
     font-size: 25px;
   }
   h1 {
