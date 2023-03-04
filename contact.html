@@ -42,12 +42,11 @@
             <p>You can email me at <a href="mailto:morganloganml1@gmail.com" class="bold">loganmorganml1@gmail.com</a> &#8212; or feel free to fill out my contact form. If you want to know more about my professional career check out my LinkedIn below. If you’re interested in seeing my travels, my dog, or random art projects I’m working on, my Instagram below is here for you to get to know me more as a person.</p>
         </div>
         <div class="contact-form">
-            <div id="error"></div>
-            <form onsubmit="reset(); SendMail(); return false;" id="my-form">
+            <form onsubmit="reset(); return false;" id="my-form">
                 <input type="text" id="full-name" placeholder="Your Name" required>
                 <input type="email" id="email-id" placeholder="Email Address" required>
                 <textarea id="message" rows="4" placeholder="Message"></textarea>
-                <button type="submit">Send</button>
+                <button onclick="SendMail()" type="submit">Send</button>
             </form>
         </div>
         <div class="social-media">
