@@ -42,15 +42,30 @@ function SendMail() {
 
   const form = document.getElementById('my-form')
   form.addEventListener('submit', SendMail)
-  
+
   var params = {
     from_name: document.getElementById('full-name').value,
     email_id: document.getElementById('email-id').value,
-    message: document.getElementById('message').value,
+    message: document.getElementById('message').value
   }
   emailjs
     .send('service_rg9bggb', 'template_3jj7rbh', params)
     .then(function (res) {
       alert('Thank you for your submission!' + res.status)
     })
-}
+  }
+//form validation
+//const name = document.getElementById("full-name")
+//const email = document.getElementById('email-id')
+//const errorElement = document.getElementById('error')
+//form.addEventListener('submit', (e) => {
+  //let message = []
+  //if (from_name.value ==="" || from_name.value == null) {
+    //messages.push('Name is required')
+  //}
+
+  //if (messages.length > 0) {
+  //e.preventDefault()
+  //errorElement.innerText = messages.join(", ")
+  //}
+//})
