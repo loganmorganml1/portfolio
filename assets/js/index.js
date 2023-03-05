@@ -39,24 +39,31 @@ window.onload = changeImg
 
 //email form content
 function SendMail() {
-   const form = document.getElementById('my-form')
-   form.addEventListener('submit', SendMail)
+  const form = document.getElementById('my-form')
+  form.addEventListener('submit', SendMail)
   const name = document.getElementById('full-name')
   const email = document.getElementById('email-id')
   const message = document.getElementById('message')
-  if (name.value === "" || name.value == null || email.value === "" || email.value == null || message.value === "" || message.value == null) {
-    message.push ('Missing fields are required');
+  if (
+    name.value === '' ||
+    name.value == null ||
+    email.value === '' ||
+    email.value == null ||
+    message.value === '' ||
+    message.value == null
+  ) {
+    message.push('Missing fields are required')
   } else {
-     var params = {
-       from_name: document.getElementById('full-name').value,
-       email_id: document.getElementById('email-id').value,
-       message: document.getElementById('message').value,
-     }
-     emailjs
-       .send('service_rg9bggb', 'template_3jj7rbh', params)
-       .then(function (res) {
-         alert('Thank you for your submission!' + res.status)
-       })
+    var params = {
+      from_name: document.getElementById('full-name').value,
+      email_id: document.getElementById('email-id').value,
+      message: document.getElementById('message').value,
+    }
+    emailjs
+      .send('service_rg9bggb', 'template_3jj7rbh', params)
+      .then(function (res) {
+        alert('Thank you for your submission!' + res.status)
+      })
   }
 }
 
@@ -65,13 +72,13 @@ function SendMail() {
 //const email = document.getElementById('email-id')
 //const errorElement = document.getElementById('error')
 //form.addEventListener('submit', (e) => {
-  //let message = []
-  //if (from_name.value ==="" || from_name.value == null) {
-    //messages.push('Name is required')
-  //}
+//let message = []
+//if (from_name.value ==="" || from_name.value == null) {
+//messages.push('Name is required')
+//}
 
-  //if (messages.length > 0) {
-  //e.preventDefault()
-  //errorElement.innerText = messages.join(", ")
-  //}
+//if (messages.length > 0) {
+//e.preventDefault()
+//errorElement.innerText = messages.join(", ")
+//}
 //})
