@@ -705,6 +705,7 @@ margin: 30px auto 0 auto;
 }
 .portfolio-pictures img:hover {
 transform: scale(1.1);
+transition: .2s linear;
 }
 }
 
