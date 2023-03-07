@@ -694,6 +694,11 @@ margin: 30px auto 0 auto;
    height: 90%;
   }
 
+  .one-image-section {
+    width: 90%;
+    margin: auto;
+  }
+
 .blue-background{
   padding-top: 1%;
 }
