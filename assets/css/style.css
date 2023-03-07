@@ -707,6 +707,36 @@ margin: 30px auto 0 auto;
 transform: scale(1.1);
 transition: .2s linear;
 }
+
+.popup-image-section{
+  position:fixed;
+  top:0;
+  left: 0;
+  background: rgba(0, 0, 0, .9);
+height: 100%;
+width:100%;
+z-index:100;
+}
+
+.popup-image-section span {
+  position: absolute;
+  top:0;
+  right: 10px;
+  font-size: 60px;
+  color:white;
+  font-weight: 700;
+  cursor:pointer;
+  z-index: 100;
+}
+
+.popup-image-section img {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width:750px;
+  object-fit: cover;
+}
 }
 
 
