@@ -67,18 +67,16 @@ function SendMail() {
   }
 }
 
-//form validation
-//const name = document.getElementById("full-name")
-//const email = document.getElementById('email-id')
-//const errorElement = document.getElementById('error')
-//form.addEventListener('submit', (e) => {
-//let message = []
-//if (from_name.value ==="" || from_name.value == null) {
-//messages.push('Name is required')
-//}
+//pop-up image content
 
-//if (messages.length > 0) {
-//e.preventDefault()
-//errorElement.innerText = messages.join(", ")
-//}
-//})
+document.querySelectorAll('.portfolio-pictures img').forEach((image) => {
+    image.onclick = () => {
+      document.querySelector('.popup-image-section').style.display='block';
+      document.querySelector('.popup-image-section img').src = image.getAttribute('src');
+    }
+
+    document.querySelector('.popup-image-section span').onclick = () => {
+      document.querySelector('.popup-image-section').style.display = 'none';
+
+    }
+  })
