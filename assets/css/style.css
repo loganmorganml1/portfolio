@@ -401,11 +401,7 @@ color:white;
   #personal-logo {
     margin: auto;
   }
-  .front-page-copy {
-    text-align: center;
-    margin-top: 0%;
-    margin-bottom: 0%;
-  }
+
   .slideshow-background {
     width: 90%;
     height: 92%;
@@ -566,7 +562,7 @@ h2 {
     height: 100px;
   }
   .front-page-copy {
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: transparent;
     text-shadow: none;
   }
@@ -738,6 +734,7 @@ display:none;
   width:800px;
   object-fit: cover;
 }
+
 }
 
 
