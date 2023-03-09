@@ -275,6 +275,9 @@ form button:hover {
   flex-direction: column;
   gap: 20px;
 }
+.popup-image-section {
+  display:none;
+}
 
   .single-picture-portfolio-content {
     display: flex;
