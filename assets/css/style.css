@@ -277,6 +277,9 @@ form button:hover {
 }
 .popup-image-section {
   display:none;
+  width:0;
+  height: 0;
+  visibility: hidden;
 }
 
   .single-picture-portfolio-content {
