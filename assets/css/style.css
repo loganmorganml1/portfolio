@@ -831,6 +831,10 @@ margin: 20px auto auto auto;
   object-fit: cover;
   object-position: 90% 0%;
 }
+
+.link-section {
+    padding-top: 20px;
+}
 }
 
 @media (min-width: 1925px) {
