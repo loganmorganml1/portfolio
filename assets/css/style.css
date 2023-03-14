@@ -685,6 +685,10 @@ margin: 30px auto 0 auto;
     column-gap: 0;
   }
 
+  .all-portfolio-content div {
+   place-self: center
+  }
+
 .portfolio-pictures {
   padding-top: 100px;
   width: 85%;
@@ -805,8 +809,6 @@ visibility:visible;
 .blue-background {
   background-color: #123870;
   height: 95%;
-  margin: 0% 2%;
-  padding-top: 50px;
 
 }
 
@@ -838,9 +840,7 @@ margin: 20px auto auto auto;
 .link-section {
     padding-top: 20px;
 }
-.blue-background{
-  padding-top: 75px;
-}
+
 }
 
 @media (min-width: 1925px) {
