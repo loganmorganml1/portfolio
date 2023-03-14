@@ -685,9 +685,6 @@ margin: 30px auto 0 auto;
     column-gap: 0;
   }
 
-  .all-portfolio-content div {
-   place-self: center
-  }
 
 .portfolio-pictures {
   padding-top: 100px;
@@ -779,6 +776,7 @@ visibility:visible;
   grid-column: 2 / span 3;
   grid-row: 1 / span 3;
   z-index: 1;
+
 }
 
 .back-image-section {
@@ -791,8 +789,7 @@ visibility:visible;
   grid-row: 1 / span 2;
   flex-direction: column;
   gap: 20px;
-  margin-left: 0%;
-  margin-bottom: 0%;
+ margin: 0;
 }
 
 .square-portfolio-pic {
