@@ -695,6 +695,10 @@ margin: 30px auto 0 auto;
     column-gap: 0;
   }
 
+  #first-portfolio-item {
+  padding-top: 0%;
+}
+
   #portfolio-page-header {
      background-color: white;
    margin: 0 2%;
@@ -776,9 +780,6 @@ visibility:visible;
   padding-top: 10%;
 }
 
-#first-portfolio-item {
-  padding-top: 0%;
-}
 
 .portfolio-pictures {
   display: grid;
