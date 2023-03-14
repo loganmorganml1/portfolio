@@ -679,7 +679,7 @@ margin: 30px auto 0 auto;
    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 4fr 1fr;
-    margin: 0 2% 0 2%;
+    margin: 0 2%;
     padding-top: 2%;
     height: auto;
     column-gap: 0;
@@ -689,6 +689,7 @@ margin: 30px auto 0 auto;
 .portfolio-pictures {
   padding-top: 100px;
   width: 85%;
+
 }
 
  .single-picture-portfolio-content {
@@ -744,13 +745,16 @@ visibility:visible;
 }
 
 
-@media (min-width: 1395px) {
+@media (min-width: 1375px) {
 
   .nav-item {
     width: 200px;
   }
 
 /* portfolio page content */
+.all-portfolio-content {
+  padding-top: 10%;
+}
 
 .portfolio-pictures {
   display: grid;
