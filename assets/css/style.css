@@ -202,6 +202,10 @@ p {
     display: flex;
     flex-direction: column;
   }
+  #portfolio-page-header {
+    padding: 30px;
+    margin-top: 10px;
+  }
 
   .copy-section {
   padding: 30px;
@@ -511,6 +515,12 @@ form textarea {
    margin: 0 5% 5% 5%;
   }
 
+   #portfolio-page-header {
+     background-color: white;
+   margin: 0 5%;
+   padding: 0 6%;
+  }
+
   .single-picture-portfolio-content {
     background-color: white;
    margin: 0 5% 5% 5%;
@@ -680,9 +690,15 @@ margin: 30px auto 0 auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 4fr 1fr;
     margin: 0 2%;
-    padding-top: 2%;
+    padding-top: 5%;
     height: auto;
     column-gap: 0;
+  }
+
+  #portfolio-page-header {
+     background-color: white;
+   margin: 0 2%;
+   padding: 2% 3% 0 2%;
   }
 
 
@@ -694,9 +710,9 @@ margin: 30px auto 0 auto;
 
  .single-picture-portfolio-content {
    background-color: white;
-   margin: 0 2% 0 2%;
-   height: 90%;
-   padding-top: 2%;
+   margin: 0 2%;
+   height: auto;
+   padding: 10% 0;
   }
 
   .one-image-section {
@@ -742,6 +758,10 @@ visibility:visible;
   object-fit: cover;
 }
 
+ .copy-section {
+  align-self: center;
+}
+
 }
 
 
@@ -773,7 +793,6 @@ visibility:visible;
   margin: 0 8% 0 5%;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  align-self: center;
 }
 
 .main-image-section {
