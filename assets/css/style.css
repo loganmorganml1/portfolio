@@ -843,6 +843,9 @@ margin: 20px auto auto auto;
 .link-section {
     padding-top: 20px;
 }
+.blue-background{
+  padding-top: 75px;
+}
 }
 
 @media (min-width: 1925px) {
@@ -868,6 +871,7 @@ h2 {
  p {
   font-size: 22px;
 }
+
 }
 
 @media (min-width: 2100px) {
