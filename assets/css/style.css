@@ -804,7 +804,7 @@ visibility:visible;
 }
 
 .blue-background {
-margin: auto;
+margin: 0 2%;
 }
 
 /*end of portfolio content*/
@@ -823,9 +823,6 @@ form button {
 margin: 20px auto auto auto;
 }
 
-.all-portfolio-content {
-    min-height: 76%;
-  }
 
   .horizontal-portfolio-pic {
   object-fit: cover;
