@@ -546,7 +546,7 @@ color:white;
 
 /*end of portfolio content*/
 
-@media (min-width: 997px) {
+@media (min-width: 1150px) {
 
   h1 {
     color: black;
@@ -605,6 +605,10 @@ h2 {
   gap: 70px;
   padding: 3%;
 }
+
+.nav-item {
+    width: 200px;
+  }
 
   /* about me page content */
   .all-page-content {
@@ -770,10 +774,6 @@ visibility:visible;
 
 
 @media (min-width: 1375px) {
-
-  .nav-item {
-    width: 200px;
-  }
 
 /* portfolio page content */
 .all-portfolio-content {
