@@ -681,9 +681,8 @@ margin: 30px auto 0 auto;
     grid-template-rows: 4fr 1fr;
     margin: 0 2% 0 2%;
     padding-top: 2%;
-    height: 100%;
-    column-gap: 0;
     height: auto;
+    column-gap: 0;
   }
 
 .portfolio-pictures {
@@ -751,10 +750,6 @@ visibility:visible;
   }
 
 /* portfolio page content */
-
-.all-portfolio-content{
-  height: 100%;
-}
 
 .portfolio-pictures {
   display: grid;
