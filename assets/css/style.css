@@ -776,6 +776,10 @@ visibility:visible;
   padding-top: 10%;
 }
 
+#first-portfolio-item {
+  padding-top: 0%;
+}
+
 .portfolio-pictures {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
