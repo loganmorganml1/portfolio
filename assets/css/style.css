@@ -830,8 +830,8 @@ margin: 0 2%;
 @media (min-width: 1728px) {
 form input, form textarea {
   width: 145%;
-
 }
+
 form textarea {
   height: 170px;
 }
@@ -858,6 +858,10 @@ form input, form textarea {
 
 form textarea {
   height: 300px;
+}
+
+.front-page-copy {
+    margin-top: 20%;
 }
 
 h1 {
