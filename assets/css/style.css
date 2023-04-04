@@ -30,6 +30,7 @@ body {
   max-height: 95%;
   min-height: 95%;
   max-width: 100%;
+  padding: 0 5%;
 }
   .home-white-text {
   color: white;
@@ -382,6 +383,7 @@ color:white;
     min-height: none;
     max-width: auto;
     width: 90%;
+    padding: 0;
   }
   .brightness {
   filter: brightness(0);
