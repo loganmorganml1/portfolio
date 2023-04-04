@@ -380,6 +380,8 @@ color:white;
     background-color: rgba(42, 83, 145, 0);
     max-height: none;
     min-height: none;
+    max-width: auto;
+    width: 90%;
   }
   .brightness {
   filter: brightness(0);
