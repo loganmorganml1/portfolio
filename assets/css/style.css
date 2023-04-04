@@ -605,7 +605,7 @@ h2 {
 }
 
 .nav-item {
-    width: 200px;
+    width: 150px;
   }
 
   /* about me page content */
@@ -770,6 +770,10 @@ visibility:visible;
 .all-portfolio-content {
   padding-top: 10%;
 }
+
+.nav-item {
+    width: 200px;
+  }
 
 
 .portfolio-pictures {
