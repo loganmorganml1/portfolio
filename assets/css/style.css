@@ -275,6 +275,11 @@ form button:hover {
 
 /* portfolio page content */
 
+.portfolio-header{
+  padding: 10% 0;
+  text-align: center;
+}
+
 .large-portfolio-image{
   width: 100%;
   height: auto;
@@ -293,6 +298,11 @@ form button:hover {
 
 .portfolio-quote-section{
 margin: 12% 0;
+text-align: center;
+}
+
+.portfolio-copy{
+  margin: 4%;
 }
 
 /*end of portfolio content*/
