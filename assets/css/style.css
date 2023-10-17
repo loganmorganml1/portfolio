@@ -626,7 +626,7 @@ h2 {
 
 #bio-picture {
   width: 90%;
-  min-height: 100%;
+  min-height: 90%;
   object-position: 50% 15%;
  box-shadow: -25px -20px 0 #DB507A;
  grid-column: 2 / 3;
@@ -886,6 +886,8 @@ h2 {
  p {
   font-size: 22px;
 }
+#bio-picture {
+  min-height: 100%;
 
 }
 
